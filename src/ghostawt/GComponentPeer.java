@@ -111,8 +111,7 @@ public class GComponentPeer extends GObjectPeer implements ComponentPeer, DropTa
         return null;
     }
 
-    @Override
-    public Toolkit getToolkit() {
+    private Toolkit getToolkit() {
         return Toolkit.getDefaultToolkit();
     }
 
